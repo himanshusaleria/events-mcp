@@ -39,6 +39,7 @@ export const CITIES: Record<string, { label: string; country: string }> = {
   boston: { label: "Boston", country: "US" },
   pune: { label: "Pune", country: "India" },
   hyderabad: { label: "Hyderabad", country: "India" },
+  chennai: { label: "Chennai", country: "India" },
 };
 
 export const BASE_URL = "https://hiddenevents.online/data";
