@@ -1,0 +1,42 @@
+{
+  "name": "events-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for discovering tech events, startup meetups, and AI events across cities — including hidden events not on featured pages.",
+  "type": "module",
+  "bin": {
+    "events-mcp": "./dist/cli.js"
+  },
+  "main": "./dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "events",
+    "luma",
+    "tech-events",
+    "startup-events",
+    "ai-events",
+    "model-context-protocol",
+    "claude",
+    "hidden-events"
+  ],
+  "author": "Himanshu Saleria <ashish@qaby.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himanshusaleria/events-mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  }
+}
