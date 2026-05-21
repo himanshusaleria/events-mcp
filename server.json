@@ -1,0 +1,36 @@
+{
+  "name": "io.github.himanshusaleria/events-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for discovering tech events, startup meetups, AI events, and hackathons across 8 cities — including hidden events not on featured pages.",
+  "repository": {
+    "url": "https://github.com/himanshusaleria/events-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "events-mcp",
+      "version": "0.1.0"
+    }
+  ],
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://mcp.hiddenevents.online/mcp"
+    }
+  ],
+  "tools": [
+    {
+      "name": "search_events",
+      "description": "Search for tech events, startup meetups, AI events across cities"
+    },
+    {
+      "name": "get_upcoming_events",
+      "description": "Get the next upcoming events in a city sorted by date"
+    },
+    {
+      "name": "list_cities",
+      "description": "List all available cities with event counts"
+    }
+  ]
+}
