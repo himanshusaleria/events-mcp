@@ -1,12 +1,12 @@
 # events-mcp
 
-MCP server for discovering tech events, startup meetups, AI events, hackathons, and more across 8 cities — **including hidden events not on featured pages**.
+MCP server for discovering tech events, startup meetups, AI events, hackathons, and more across 9 cities — **including hidden events not on featured pages**.
 
 Data updates every 2 hours from [hiddenevents.online](https://hiddenevents.online).
 
 ## Cities
 
-Bengaluru, Mumbai, New Delhi, Pune, Hyderabad, San Francisco, Boston, Singapore
+Bengaluru, Mumbai, New Delhi, Pune, Hyderabad, Chennai, San Francisco, Boston, Singapore
 
 ## Install
 
@@ -56,11 +56,25 @@ Add to MCP settings:
 
 ## Example Prompts
 
-- "What AI events are happening in Bengaluru this week?"
-- "Find hackathons in San Francisco"
-- "Show me upcoming startup events in Mumbai"
-- "What tech meetups are in Singapore next month?"
-- "List all cities with events"
+**Find your people**
+- "I'm a product manager in Bengaluru — find me events where I can meet other PMs this week"
+- "I'm looking to meet second-time founders in SF — what events should I go to?"
+- "Find events in Mumbai where I can meet VCs and angel investors"
+
+**Never miss what matters**
+- "What AI events are happening in Bengaluru this week that most people don't know about?"
+- "I'm visiting Singapore next week — what's the best tech event to attend?"
+- "Show me all hackathons in the next 2 weeks across all cities"
+
+**Plan your week**
+- "Build me a networking calendar for SF this week — prioritize startup and founder events"
+- "What are the top 5 events in Delhi this weekend for someone in the AI space?"
+- "Compare what's happening in Bengaluru vs Chennai this week"
+
+**Discover hidden gems**
+- "Find small, intimate founder dinners in SF — not the big conferences"
+- "What events in Pune have fewer than 50 guests? I want to actually meet people"
+- "Show me events from organizers I haven't heard of in Hyderabad"
 
 ## How It Works
 
