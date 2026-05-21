@@ -1,21 +1,25 @@
 {
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.himanshusaleria/events-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for discovering tech events, startup meetups, AI events, and hackathons across 8 cities — including hidden events not on featured pages.",
+  "version": "0.1.1",
+  "description": "Discover tech events, startup meetups, AI events across 8 cities — including hidden ones.",
   "repository": {
     "url": "https://github.com/himanshusaleria/events-mcp",
     "source": "github"
   },
   "packages": [
     {
-      "registry_name": "npm",
-      "name": "events-mcp",
-      "version": "0.1.0"
+      "registryType": "npm",
+      "identifier": "events-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ],
   "remotes": [
     {
-      "transport_type": "streamable-http",
+      "type": "streamable-http",
       "url": "https://mcp.hiddenevents.online/mcp"
     }
   ],

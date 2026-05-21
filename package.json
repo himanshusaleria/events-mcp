@@ -1,6 +1,6 @@
 {
   "name": "events-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for discovering tech events, startup meetups, and AI events across cities — including hidden events not on featured pages.",
   "type": "module",
   "bin": {
@@ -24,6 +24,7 @@
     "hidden-events"
   ],
   "author": "Himanshu Saleria <ashish@qaby.ai>",
+  "mcpName": "io.github.himanshusaleria/events-mcp",
   "license": "MIT",
   "repository": {
     "type": "git",
