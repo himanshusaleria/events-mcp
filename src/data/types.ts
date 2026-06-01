@@ -45,6 +45,11 @@ export const CITIES: Record<string, { label: string; country: string }> = {
   toronto: { label: "Toronto", country: "Canada" },
   vancouver: { label: "Vancouver", country: "Canada" },
   montreal: { label: "Montreal", country: "Canada" },
+  nyc: { label: "New York City", country: "US" },
+  "los-angeles": { label: "Los Angeles", country: "US" },
+  austin: { label: "Austin", country: "US" },
+  seattle: { label: "Seattle", country: "US" },
+  miami: { label: "Miami", country: "US" },
 };
 
 export const BASE_URL = "https://hiddenevents.online/data";
