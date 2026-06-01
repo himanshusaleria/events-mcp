@@ -6,6 +6,8 @@ export interface Event {
   end_at: string;
   timezone: string;
   location_type: string;
+  venue: string;
+  full_address: string;
   city: string;
   sublocality: string;
   country: string;
@@ -40,6 +42,9 @@ export const CITIES: Record<string, { label: string; country: string }> = {
   pune: { label: "Pune", country: "India" },
   hyderabad: { label: "Hyderabad", country: "India" },
   chennai: { label: "Chennai", country: "India" },
+  toronto: { label: "Toronto", country: "Canada" },
+  vancouver: { label: "Vancouver", country: "Canada" },
+  montreal: { label: "Montreal", country: "Canada" },
 };
 
 export const BASE_URL = "https://hiddenevents.online/data";

@@ -1,12 +1,12 @@
 # events-mcp
 
-MCP server for discovering tech events, startup meetups, AI events, hackathons, and more across 9 cities — **including hidden events not on featured pages**.
+MCP server for discovering tech events, startup meetups, AI events, hackathons, and more across 12 cities — **including hidden events not on featured pages**.
 
 Data updates every 2 hours from [hiddenevents.online](https://hiddenevents.online).
 
 ## Cities
 
-Bengaluru, Mumbai, New Delhi, Pune, Hyderabad, Chennai, San Francisco, Boston, Singapore
+Bengaluru, Mumbai, New Delhi, Pune, Hyderabad, Chennai, San Francisco, Boston, Singapore, Toronto, Vancouver, Montreal
 
 ## Install
 

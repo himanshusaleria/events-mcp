@@ -1,6 +1,6 @@
 {
   "name": "events-mcp",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "MCP server for discovering tech events, startup meetups, and AI events across cities — including hidden events not on featured pages.",
   "type": "module",
   "bin": {
